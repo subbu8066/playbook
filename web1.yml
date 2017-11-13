@@ -2,3 +2,9 @@
  - hosts: webserver
    remote_user: sachin
    become: yes
+
+
+---
+ - hosts: webserver
+   remote_user: dhoni
+   become: yes
