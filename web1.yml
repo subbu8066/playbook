@@ -2,6 +2,9 @@
  - hosts: webserver
    remote_user: sachin
    become: yes
+   tasks: 
+     - name:
+       yum:  
 
 
 ---
